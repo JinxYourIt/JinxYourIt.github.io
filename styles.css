@@ -30,7 +30,8 @@ nav ul{
 nav a {
   text-decoration: none;
   color: #333;           
-  padding: 8px 15px;     
+  padding: 8px 15px;
+}
 
 a:hover{
   background-color: #FFEE8C;
