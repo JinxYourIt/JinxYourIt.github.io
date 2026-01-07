@@ -48,21 +48,21 @@ main {
 
 /* Sections: Using background-color instead of 35px borders */
 #About {
-  background-color: #920000;
+  background-color: #FFFFFF;
   color: white; /* Make text white so it's readable on dark red */
   padding: 20px;
   margin: 15px;
 }
 
 #Projects {
-  background-color: #c25555;
+  background-color: #FFFFFF;
   color: white;
   padding: 20px;
   margin: 15px;
 }
 
 #Contact {
-  background-color: #ee7401;
+  background-color: #FFFFFF;
   color: white;
   padding: 20px;
   margin: 15px;
