@@ -1,57 +1,70 @@
-body{
+body {
   background-color: #FFFFFF;
-  background: linear-gradient(to bottom, #ffffff, #f0f0f0)
+  background: linear-gradient(to bottom, #ffffff, #f0f0f0); /* Added semicolon */
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.6;
   color: #1f1e1e;
+  margin: 0; /* Ensures the header touches the top */
 }
 
-header{
+header {
   background-color: #58bcc9;
-  color: #635e5e;
+  color: #ffffff; /* Changed to white for better contrast on teal */
   font-size: 32px;
   font-weight: normal;
   text-align: center;
-  padding:30px 20px;
-  border: border: 2px solid #333;;
+  padding: 30px 20px;
+  border-bottom: 2px solid #333; /* Fixed typo */
 }
 
-nav ul{
+nav ul {
   display: flex;
   list-style: none;
   justify-content: center;
   gap: 18px;
+  padding: 20px 0;
 }
 
-a:hover{
+a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+  transition: 0.3s;
+}
+
+a:hover {
   background-color: #FFEE8C;
   color: #1f1e1e;
+  border-radius: 4px;
 }
 
 main {
-  border: 2px solid #ffffff;
+  border: 1px solid #ddd; /* Changed to light gray so it's visible on white */
   padding: 20px;
   margin: 20px auto;
   max-width: 950px;
 }
 
-#Contact{
-  background-color: #ffffff;
-  padding: 10px;
+/* Sections: Using background-color instead of 35px borders */
+#About {
+  background-color: #920000;
+  color: white; /* Make text white so it's readable on dark red */
+  padding: 20px;
   margin: 15px;
-  border: 35px solid #920000;
 }
-#About{
-  background-color: #ffffff;
-  padding: 10px;
+
+#Projects {
+  background-color: #c25555;
+  color: white;
+  padding: 20px;
   margin: 15px;
-  border: 35px solid #ee7401;
 }
-#Projects{
-  background-color: #ffffff;
-  padding: 10px;
+
+#Contact {
+  background-color: #ee7401;
+  color: white;
+  padding: 20px;
   margin: 15px;
-  border: 35px solid #c25555;
 }
 
 footer {
