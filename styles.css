@@ -8,12 +8,12 @@ body{
 
 header{
   background-color: #58bcc9;
-  color: #635e5e;
+  color: #ffffff;
   font-size: 32px;
   font-weight: normal;
   text-align: center;
   padding:30px 20px;
-  border: 2px solid #333;;
+  border: 2px solid #333;
 }
 
 nav ul{
@@ -21,7 +21,8 @@ nav ul{
   list-style: none;
   justify-content: center;
   gap: 18px;
-  border: 2px solid #333; 
+  border: 2px solid #333;
+  border-color: #58bcc9;
   padding: 10px;
   margin: 10px 0;
 }
@@ -46,9 +47,9 @@ main {
 
 /* SECTIONS */
 #About, #Projects, #Contact {
-  background-color: #ffffff !important;
-  border: 4px solid #58bcc9 !important;
-  color: #1f1e1e !important; 
+  background-color: #ffffff;
+  border: 4px solid #58bcc9;
+  color: #1f1e1e; 
   padding: 20px;
   margin: 15px;
 }
