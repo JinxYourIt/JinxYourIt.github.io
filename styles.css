@@ -82,37 +82,49 @@ main {
   transition: transform 0.4s ease;
 }
 
+/*table*/
 table {
+  /*table width*/
   width: 100%;
-  table-layout: fixed; /* This is the most important line for your issue */
+  /*fixed table layout, collapsed border, margin specs*/
+  table-layout: fixed;
   border-collapse: collapse;
   margin: 20px 0;
-  word-wrap: break-word; /* Prevents long text from pushing the table out */
+  word-wrap: break-word;
 }
 
+/*caption*/
 caption{
+  /*font size of caption 32px, padding of 10, weighted bold*/
   font-size: 32px;
   padding: 10px;
   font-weight: bold;
 }
 
+/*th and td*/
 th, td{
+  /*left alignment with border, 12px padding.*/
   border: 2px solid #333;
   padding: 12px;
   text-align: left;
 }
 
+/*thead th*/
 thead th{
+  /*background and font color*/
 background-color: #FCD5CE;
 color: #333;
 }
 
+/*tfoot td*/
 tfoot td{
+  /*font weight background color and alignment spec*/
   font-weight: bold;
   background-color: #808080;
   text-align: center;
 }
 
+/*Table image specs*/
 table td img{
   max-width:200px;
   height: auto;
