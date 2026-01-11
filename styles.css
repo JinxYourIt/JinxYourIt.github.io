@@ -79,6 +79,7 @@ main {
 #About:hover, #Projects:hover, #Contact:hover {
   /*Section hover effects per request*/
   transform: scale(1.02);
+  transition: transform 0.4s ease;
 }
 
 table {
