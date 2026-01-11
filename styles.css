@@ -109,6 +109,13 @@ tfoot td{
   background-color: #808080;
 }
 
+table td img{
+  max-width:200px;
+  height: auto;
+  display: block;
+  margin: 5px auto;
+}
+
 /*footer element*/
 footer {
   /*smaller font size for footer*/
