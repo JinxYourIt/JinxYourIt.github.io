@@ -44,10 +44,12 @@ nav a {
   color: #333;
   /*padding specs*/
   padding: 8px 15px;
+  /*background color transition*/
+  transition: background-color 0.3s ease;
 }
 
 /*hover background color and font color effects*/
-a:hover{
+nav a:hover{
   background-color: #FFEE8C;
   color: #1f1e1e;
 }
@@ -73,6 +75,40 @@ main {
   padding: 20px;
   margin: 15px;
 }
+
+#About:hover, #Projects:hover, #Contact:hover {
+  /*Section hover effects per request*/
+  transform: scale(1.02);
+}
+
+table{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+caption{
+  font-size: 32px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+th, td{
+  border: 2px solid #333;
+  padding: 12px;
+  text-align: left;
+}
+
+thead th{
+background-color: #FCD5CE;
+color: #333;
+}
+
+tfoot td{
+  font-weight: bold;
+  background-color: #808080;
+}
+
 /*footer element*/
 footer {
   /*smaller font size for footer*/
@@ -85,3 +121,4 @@ footer {
   /*white font color*/
   color: #FFFFFF;
 }
+
