@@ -81,10 +81,12 @@ main {
   transform: scale(1.02);
 }
 
-table{
+table {
   width: 100%;
+  table-layout: fixed; /* This is the most important line for your issue */
   border-collapse: collapse;
   margin: 20px 0;
+  word-wrap: break-word; /* Prevents long text from pushing the table out */
 }
 
 caption{
