@@ -198,7 +198,8 @@ input:focus, textarea:focus{
 /*responsive design media query: phone display*/
 @media (min-width: 600px){
   nav ul{
-    flex-direction: column;
+    flex-direction: row;
+    flex-flow: wrap
     align-items: stretch;
   }
 
