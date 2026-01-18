@@ -26,7 +26,7 @@ header{
 nav ul{
   /*flex box*/
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   list-style: none;
   /*center alignment + gap*/
   justify-content: center;
@@ -158,7 +158,8 @@ form.contact-form {
   /*flex box*/
   display: flex;
   /*vertical content*/
-  flex-direction: column;
+  flex-direction: row;
+  flex-flow: wrap;
   /* 100% width, gap 15 pixels*/
   width: 100%;
   gap: 15px;
