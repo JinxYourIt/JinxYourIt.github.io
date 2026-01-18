@@ -199,6 +199,7 @@ input:focus, textarea:focus{
 
 /*responsive design media query: phone display*/
 @media (max-width: 599px){
+  /*nav ul rules to fit screen size more spaciously*/
   nav ul{
     font-size: 16px;
     flex-direction: row;
@@ -220,7 +221,7 @@ input:focus, textarea:focus{
   font-size: 14px;
 }
 
-  /*force fixed image rules for small display*/
+  /*fixed image rules for small display*/
 table td img {
   max-width: 100%;
   width: 80px;
@@ -237,12 +238,16 @@ table td img {
   header{
     font-size: 24px;
   }
+
+  /*nav ul sized to fit screen*/
     nav ul{
     font-size: 16px;
     flex-direction: row;
     flex-flow: wrap
     align-items: stretch;
   }
+
+  /*smaller table images*/
   table td img {
   max-width: 100%;
   width: 80px;
