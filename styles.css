@@ -26,7 +26,7 @@ header{
 nav ul{
   /*flex box*/
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   list-style: none;
   /*center alignment + gap*/
   justify-content: center;
@@ -99,6 +99,13 @@ table {
   border-collapse: collapse;
   margin: 20px 0;
   word-wrap: break-word;
+}
+
+/*table img rules*/
+table img {
+  max-width: 100%;  
+  height: auto;
+  display: block;    
 }
 
 /*caption*/
