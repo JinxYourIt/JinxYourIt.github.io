@@ -198,7 +198,7 @@ input:focus, textarea:focus{
 }
 
 /*responsive design media query: phone display*/
-@media (min-width: 600px){
+@media (max-width: 599px){
   nav ul{
     font-size: 16px;
     flex-direction: row;
@@ -229,7 +229,7 @@ table td img {
   margin: 5px auto;
 }
 /*responsive design media query: tablet display*/
-@media (min-width: 768px){
+@media (min-width: 600px) and (max-width: 1023px){
   main{
     padding: 30px;
   }
@@ -253,7 +253,7 @@ table td img {
 }
 
 /*responsive design media query: desktop display*/
-@media (min-width 1024px){
+@media (min-width: 1024px){
   nav ul{
     padding: 20px;
   }
