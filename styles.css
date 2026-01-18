@@ -26,7 +26,7 @@ header{
 nav ul{
   /*flex box*/
   display: flex;
-  /*no flex direction used. I would like the default for my nav, horizontal*/
+  flex-direction:row;
   list-style: none;
   /*center alignment + gap*/
   justify-content: center;
@@ -186,10 +186,12 @@ input, textarea{
   transition: border-color 0.3s ease
 }
 
+/*hover effects for input and text area*/
 input:hover, textarea:hover{
   border-color: #FFEE8C;
 }
 
+/*focus effects for input and text area boxes*/
 input:focus, textarea:focus{
   border-color: #333;
   background-color: #f0f0f0;
@@ -198,6 +200,7 @@ input:focus, textarea:focus{
 /*responsive design media query: phone display*/
 @media (min-width: 600px){
   nav ul{
+    font-size: 16px;
     flex-direction: row;
     flex-flow: wrap
     align-items: stretch;
@@ -206,6 +209,24 @@ input:focus, textarea:focus{
   header{
     font-size: 24px;
   }
+
+  /*table rules for small display*/
+  table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  margin: 20px 0;
+  word-wrap: break-word;
+  font-size: 14px;
+}
+
+  /*force fixed image rules for small display*/
+table td img {
+  max-width: 100%;
+  width: 80px;
+  height: auto;
+  display: block;
+  margin: 5px auto;
 }
 /*responsive design media query: tablet display*/
 @media (min-width 768px){
