@@ -24,9 +24,11 @@ header{
 }
 /*nav ul element*/
 nav ul{
+  /*flex box*/
   display: flex;
+  flex-direction: row;
   list-style: none;
-  /*center alignment*/
+  /*center alignment + gap*/
   justify-content: center;
   gap: 18px;
   /*border padding and margin specs*/
@@ -63,6 +65,12 @@ main {
   max-width: 950px;
   /*background color is white*/
   background-color: #ffffff;
+  /*flex box specs*/
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  align-items: center;
+  padding: 15px;
 }
 
 /*all sections*/
@@ -145,3 +153,65 @@ footer {
   color: #FFFFFF;
 }
 
+/*contact form*/
+form.contact-form {
+  /*flex box*/
+  display: flex;
+  /*vertical content*/
+  flex-direction: column;
+  /* 100% width, gap 15 pixels*/
+  width: 100%;
+  gap: 15px;
+}
+
+/*form-group divs*/
+div.form-group{
+  /*flex box*/
+  display: flex;
+  /*vertical content*/
+  flex-direction: column;
+  /*gap 10 pixels*/
+  gap: 10px;
+}
+
+input, textarea{
+  transition: border-color 0.3s ease
+}
+
+input:hover, textarea:hover{
+  border-color: #FFEE8C;
+}
+
+input:focus, textarea:focus{
+  border-color: #333;
+  background-color: #f0f0f0;
+}
+
+/*responsive design media query: phone display*/
+@media (min-width: 600px){
+  nav ul{
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  header{
+    font-size: 24px;
+  }
+}
+/*responsive design media query: tablet display*/
+@media (min-width 768px){
+  main{
+    padding: 30px;
+  }
+
+  header{
+    font-size: 24px;
+  }
+}
+
+/*responsive design media query: desktop display*/
+@media (min-width 1024px){
+  nav ul{
+    padding: 20px;
+  }
+}
