@@ -6,6 +6,7 @@ This webpage has a table of projects by me, a contact form to submit messages to
 
 ## Table of Contents
 - [Technologies Used](#technologies-used)
+- [Screenshots](#Screenshots)
 - [Usage](#usage)
 - [Installation Instructions](#installation-instructions)
 - [Features](#features)
@@ -16,6 +17,9 @@ This webpage has a table of projects by me, a contact form to submit messages to
 ## Technologies Used
 - HTML5
 - CSS3
+
+## Screenshots
+[Webpage Preview](./webpreviewphoto.jpg)
 
 ## Usage
 - The website can be accessed at [JinxYourIt.github.io](https://jinxyourit.github.io) or by cloning the repository.
