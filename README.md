@@ -19,8 +19,8 @@ This webpage has a table of projects by me, a contact form to submit messages to
 - CSS3
 
 ## Screenshots
-[Webpage Preview](./webpreviewphoto.jpg)
-[Locally Hosted Webpage](./WebDevPortfolioLocalHost.jpg)
+- [Webpage Preview](./webpreviewphoto.jpg)
+- [Locally Hosted Webpage](./WebDevPortfolioLocalHost.jpg)
 
 ## Usage
 - The website can be accessed at [JinxYourIt.github.io](https://jinxyourit.github.io) or by cloning the repository.
